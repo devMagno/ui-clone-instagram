@@ -25,17 +25,17 @@ body {
     height: 100vh;
 }
 
-.phone {
+.instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
-.phone img {
+.instagram-phone img {
     height: 50rem;
 }
 
-.login {
+.instagram-continue {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
