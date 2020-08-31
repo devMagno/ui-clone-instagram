@@ -15,6 +15,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 .instagram-wrapper {
@@ -77,7 +78,7 @@ body {
     padding: 8px;
     border-radius: 4px;
 }
-.instagram-logot {
+.instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
 }
@@ -114,4 +115,27 @@ body {
 }
 .app-download:nth-child(2){
     background-image: url('./img/google-play-button.png');
+}
+
+@media(max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+    
+    .instagram-continue {
+        width: 100%;
+    }
 }
