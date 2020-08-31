@@ -54,3 +54,30 @@ body {
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+.instagram-logo {
+    height: 3rem;
+}
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-photo img{
+    height: 6rem;
+}
+.instagram-login {
+    background-color: rgba(0, 149, 246, 1);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.instagram-logot {
+    color: #0095f6;
+    margin-top: 1rem;
+}
